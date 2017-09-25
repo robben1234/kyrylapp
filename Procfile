@@ -1,1 +1,1 @@
-web: cd ngApp && npm install && cd .. && python manage.py runserver 0.0.0.0:$PORT
+web: cd ngApp && sudo apt-get install npm && npm install && cd .. && python manage.py runserver 0.0.0.0:$PORT
